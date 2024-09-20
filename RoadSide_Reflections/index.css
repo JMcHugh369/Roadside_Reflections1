@@ -1,0 +1,249 @@
+body {
+    background: linear-gradient(180deg, #222, #336bff);
+    color: #dcdfe6;
+    font-family: "New Amsterdam", sans-serif;
+    line-height: 1.6;
+    margin-top: 100px;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background: black;
+    color: #dcdfe6;
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 25;
+    display: flex;
+    align-items: center;
+    justify-content: space;
+    padding: 0 20px;
+}
+
+#logo {
+    border-radius: 50%;
+    width: 7vw;
+    height: auto;
+    margin-right: 2vw;
+    position: relative;
+    z-index: 24;
+}
+
+#pageTitle {
+    font-weight: 700;
+    font-size: 4vw;
+    position: relative;
+    z-index: 22;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color: #dcdfe6;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #336bff;
+}
+
+/* Navbar Links */
+#services, #about, #contactUs {
+    font-size: 30px;
+}
+
+#services {
+    position: fixed;
+    top: 30px;
+    right: 220px;
+}
+
+#about {
+    position: fixed;
+    top: 30px;
+    right: 110px;
+}
+
+#contactUs {
+    position: fixed;
+    top: 30px;
+    right: 10px;
+}
+
+.homePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#home {
+    text-align: center;
+    font-size: 10vw;
+}
+
+#homePage {
+    font-size: 20px;
+}
+
+#servicePage {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#servicesPic {
+    position: relative;
+    width: 80%;
+    height: 80%;
+}
+
+#homePage1 {
+    width: 50vw;
+    height: 50vw;
+    background: #336bff;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#description1, #description2, #special, #learnMore {
+    width: 85%;
+    height: auto;
+    border-radius: 5%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#cardetail {
+    width: 85%;
+    height: auto;
+    border-radius: 5%;
+    margin: 20px auto;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+}
+
+
+.contact {
+    text-align: center;
+    position: relative;
+    top: 115px;
+}
+
+footer {
+    font-size: 16px;
+    padding-top: 15px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+#servicesList {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: absolute;
+    bottom: -775px;
+    left: 675px;
+
+}
+
+#contactServices {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 425px;
+}
+
+#aboutPic {
+    position: relative;
+    width: 80%;
+    height: auto;
+    border-radius: 5%;
+    left: 9%;
+    bottom: 125px;
+}
+
+#contactAbout {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 425px;
+}
+
+#footerAbout {
+    position: relative;
+    top: 400px;
+}
+
+#footerServices {
+    position: relative;
+    top: 400px;
+}
+
+@media (max-width: 768px) {
+    #logo {
+        width: 12vw;
+    }
+
+    #pageTitle {
+        font-size: 6vw;
+    }
+
+    a {
+        font-size: 3.5vw;
+    }
+
+    #services, #about, #contactUs {
+        font-size: 3.5vw;
+    }
+
+    #homePage1 {
+        width: 70vw;
+        height: 70vw;
+    }
+
+    #cardetail {
+        top: auto;
+        width: 90%;
+    }
+
+    #description1, #description2, #special {
+        top: auto;
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    #logo {
+        width: 15vw;
+    }
+
+    #pageTitle {
+        font-size: 8vw;
+    }
+
+    a {
+        font-size: 4vw;
+    }
+
+    #services, #about, #contactUs {
+        font-size: 4vw;
+    }
+
+    #homePage1 {
+        width: 80vw;
+        height: 80vw;
+    }
+}
